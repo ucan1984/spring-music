@@ -26,7 +26,7 @@ public class Album {
     }
 
     public Album(String title, String artist, String releaseYear, String genre) {
-        this.title = title;
+        this.title = "Title: " + title;
         this.artist = artist;
         this.releaseYear = releaseYear;
         this.genre = genre;
