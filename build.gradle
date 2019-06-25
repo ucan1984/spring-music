@@ -64,8 +64,8 @@ dependencies {
     // compile files('libs/ojdbc7.jar')
 
     // Testing
-    testCompile "junit:junit"
-    testCompile "org.springframework.boot:spring-boot-starter-test"
+    //testCompile "junit:junit"
+    //testCompile "org.springframework.boot:spring-boot-starter-test"
 }
 
 jar {
