@@ -45,7 +45,7 @@ public class Album {
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        this.title = "Title: " + title;
     }
 
     public String getArtist() {
