@@ -104,7 +104,7 @@ function AlbumsController($scope, $modal, Albums, Album, Status) {
 
     $scope.init = function() {
         list();
-        $scope.setAlbumsView("grid");
+        $scope.setAlbumsView("list");
         $scope.sortField = "name";
         $scope.sortDescending = false;
     };
